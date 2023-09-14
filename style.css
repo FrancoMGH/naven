@@ -26,3 +26,70 @@ ul {
     display: flex;
     gap: 20px;
 }
+main {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   color: var(--secondary);
+   width: 100%;
+}
+.hero {
+    margin-top: 50px;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content {
+    flex: 1;
+}
+
+.hero h1 {
+    font-size: 36px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.botones {
+    margin-top: 30px;
+}
+
+.boton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.fotohero {
+    margin: 10px;
+    overflow: hidden;
+}
+.fotohero img {
+    max-width: 100%;
+    height: 800px;
+}
+.lorepanaderia {
+    margin-top: 50px;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.lorepanaderia h2 {
+    font-size: 20px;
+}
+
+.lorepanaderia p {
+    font-size: 16px;
+    margin-top: 20px;
+}
